@@ -12,8 +12,8 @@ dept_no INT PK FK >-< Departments.dept_no
 
 Dept_Manager
 -
-dept_no INT FK -< Departments.dept_no 
-emp_no INT PK FK >0- Employees.emp_no
+dept_no INT FK >0- Departments.dept_no 
+emp_no INT PK FK - Employees.emp_no
 
 Employees
 -
